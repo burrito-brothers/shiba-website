@@ -2230,7 +2230,7 @@ object {
 }
 
 h1.entry-title, h2.entry-title, h2.entry-title a:hover, h2.entry-title a:active {
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #000;
 	font-size: 30px;
@@ -2975,9 +2975,18 @@ body.page-id-213.custom-background {
 }
 
 .page-id-213 h2 {
-	padding: 20%;
 	width: 100%;
-	color: #999999;
+	padding: 20%;
+	margin-bottom: 0;
+}
+
+.page-id-213 h3 {
+	font-size: 1.2em;
+	font-family: Roboto, sans-serif;
+	color: #f7f9ff;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 1em;
 }
 
 .page-id-213 .entry-content {
@@ -2996,13 +3005,14 @@ body.page-id-213.custom-background {
 
 .page-id-213 .alt-background {
 	background: #ffffff;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #999999;
 }
 
 .page-id-213 .wp-block-image {
 	display: block;
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 50px;
 }
 

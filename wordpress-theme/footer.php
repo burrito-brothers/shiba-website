@@ -18,6 +18,8 @@
 <div id="smobile-menu" class="mobile-only"></div>
 <div id="mobile-menu-overlay"></div>
 
+<div style="font-size: 70%; color: white; text-align: right; margin: 20px;">© Burrito Brothers Inc, 2020</div>
+
 <?php wp_footer(); ?>
 </body>
 </html>

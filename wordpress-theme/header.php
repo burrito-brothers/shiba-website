@@ -21,6 +21,7 @@
 
 <body <?php body_class(); ?>>
 	<div id="page" class="site">
+		<div style="float: right; padding-right: 10px;"><a href="https://app.shiba-gizmos.com/dashboard" style="color: white;">Gizmo Dashboard</a></div>
 
 
 						<!-- Header img -->

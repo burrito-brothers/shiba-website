@@ -14,6 +14,11 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+figcaption {
+	text-align: center;
+	color: #999999;
+	font-style: italic;
+}
 
 body,
 code,
@@ -1389,7 +1394,7 @@ object {
 	text-align:center;
 }
 .posts-entry .entry-content p:last-child {
-	margin-bottom: 0
+	margin-bottom: 10px;
 }
 .content-wrapper {
 	padding: 20px 30px 30px;
@@ -2258,6 +2263,7 @@ article .entry-content {
 	line-height: 150%;
 	color: #656565;
 	font-size: 16px;
+	padding-bottom: 20px;
 }
 .single article .entry-content, .page article .entry-content {
 	color:#000;
@@ -2966,7 +2972,7 @@ body.page-id-213.custom-background {
 }
 
 .page-id-213 h1.entry-title {
-	max-width: 500px;
+	max-width: 900px;
 	font-size: 2.2em;
 	margin: auto;
 	margin-top: 40px;

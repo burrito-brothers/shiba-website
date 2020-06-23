@@ -18,7 +18,24 @@
 <div id="smobile-menu" class="mobile-only"></div>
 <div id="mobile-menu-overlay"></div>
 
-<div style="font-size: 70%; color: white; text-align: right; margin: 20px;">© Burrito Brothers Inc, 2020</div>
+<style>
+  .footer-text {
+    font-size: 70%;
+    color: white;
+    text-align: right;
+    margin: 20px;
+  }
+
+  .footer-text a { 
+    color: white;
+  }
+</style>
+
+<div class="footer-text">
+  <a href="https://app.shiba-gizmos.com/privacy_policy.html">Privacy Policy</a>
+  | 
+  <a href="https://app.shiba-gizmos.com/terms_of_service.html">Terms of Service</a>
+</div>
 
 <?php wp_footer(); ?>
 </body>
